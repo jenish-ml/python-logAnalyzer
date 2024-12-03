@@ -49,3 +49,13 @@ Follow these steps to set up the project:
    ```bash
    git clone https://github.com/jenish-ml/log-analysis-tool.git
    cd log-analysis-tool
+
+## Contact
+
+For any inquiries or issues, feel free to reach out to me:
+
+- GitHub: [jenish-ml](https://github.com/jenish-ml)
+- LinkedIn: [Jenish](https://linkedin.com/in/jenishml)
+- Email: [jenish@example.com](mailto:jenish@example.com)
+
+
