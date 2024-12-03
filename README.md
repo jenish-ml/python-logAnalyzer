@@ -1,4 +1,4 @@
-# Project Name
+# Log Analysis Tool
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -12,26 +12,24 @@
 4. [Usage](#usage)
 5. [Configuration](#configuration)
 6. [File Structure](#file-structure)
-7. [Output](#output)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Contact](#contact)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
 
 ---
 
 ## About the Project
 
-Provide a brief overview of your project, including its purpose and key features. Example:
-
-LogAnalyzer is a tool to parse HTTP server access logs and generate insightful reports for troubleshooting, performance monitoring, and security analysis.
+The Log Analysis Tool is a Python-based project designed to parse and analyze server log files. It provides insights into server usage, suspicious activity, and endpoint access patterns, making it a useful tool for troubleshooting, security audits, and performance monitoring.
 
 ---
 
 ## Features
 
-- **Feature 1**: Description of feature.
-- **Feature 2**: Description of feature.
-- **Feature 3**: Description of feature.
+- Parses server log files to extract key details like IP addresses and endpoint usage.
+- Identifies the most accessed endpoints.
+- Detects suspicious activity by analyzing failed login attempts.
+- Generates a detailed CSV report for easy analysis.
 
 ---
 
@@ -39,8 +37,15 @@ LogAnalyzer is a tool to parse HTTP server access logs and generate insightful r
 
 ### Prerequisites
 
-- List the software, dependencies, or tools required to run the project.
+Ensure you have the following installed:
 
-Example:
-```bash
-Python 3.7+
+- Python 3.7 or later
+
+### Installation
+
+Follow these steps to set up the project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jenish-ml/log-analysis-tool.git
+   cd log-analysis-tool
